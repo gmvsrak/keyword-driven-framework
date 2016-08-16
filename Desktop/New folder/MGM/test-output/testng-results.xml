@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Parallel Tests" duration-ms="427048" started-at="2016-07-27T12:09:43Z" finished-at="2016-07-27T12:16:50Z">
+    <groups>
+    </groups>
+    <test name="Chrome" duration-ms="427048" started-at="2016-07-27T12:09:43Z" finished-at="2016-07-27T12:16:50Z">
+      <class name="com.mgm.main.Driver">
+        <test-method status="PASS" signature="initiationOfGrid()[pri:0, instance:com.mgm.main.Driver@4157f54e]" name="initiationOfGrid" is-config="true" duration-ms="9226" started-at="2016-07-27T17:39:43Z" finished-at="2016-07-27T17:39:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiationOfGrid -->
+        <test-method status="PASS" signature="startTesting()[pri:0, instance:com.mgm.main.TestDriver@90f6bfd]" name="startTesting" is-config="true" duration-ms="45" started-at="2016-07-27T17:39:52Z" finished-at="2016-07-27T17:39:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTesting -->
+        <test-method status="PASS" signature="createMainReport()[pri:0, instance:com.mgm.main.Driver@4157f54e]" name="createMainReport" is-config="true" duration-ms="1437" started-at="2016-07-27T17:46:50Z" finished-at="2016-07-27T17:46:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createMainReport -->
+      </class> <!-- com.mgm.main.Driver -->
+      <class name="com.mgm.main.TestDriver">
+        <test-method status="PASS" signature="callMainTest()[pri:0, instance:com.mgm.main.TestDriver@90f6bfd]" name="callMainTest" duration-ms="417757" started-at="2016-07-27T17:39:52Z" finished-at="2016-07-27T17:46:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- callMainTest -->
+        <test-method status="PASS" signature="endScript()[pri:0, instance:com.mgm.main.TestDriver@90f6bfd]" name="endScript" is-config="true" duration-ms="1" started-at="2016-07-27T17:46:50Z" finished-at="2016-07-27T17:46:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endScript -->
+      </class> <!-- com.mgm.main.TestDriver -->
+    </test> <!-- Chrome -->
+  </suite> <!-- Parallel Tests -->
+</testng-results>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Parallel Tests" verbose="1" thread-count="8" parallel="tests">
+	 <tests>
+	<test name="Driver">
+		<classes>
+			<class name="com.aims.Driver"></class>
+		</classes>
+	</test>
+
+	
+	 <test name="test">
+	  <parameters>
+	  <parameter name="moduleName" value="test" />
+      <parameter name="browser" value="internet explorer"></parameter>
+      </parameters>
+		<classes>
+			<class name="com.aims.TestDriver"></class>
+		</classes>
+	</test>
+	
+	 <test name="test">
+	  <parameters>
+	  <parameter name="moduleName" value="test" />
+      <parameter name="browser" value="firefox"></parameter>
+      </parameters>
+		<classes>
+			<class name="com.aims.TestDriver"></class>
+		</classes>
+	</test>
+	
+	  <test name="test">
+	  <parameters>
+	  <parameter name="moduleName" value="test" />
+      <parameter name="browser" value="chrome"></parameter>
+      </parameters>
+		<classes>
+			<class name="com.aims.TestDriver"></class>
+		</classes>
+	</test>
+	
+	   <test name="test">
+	  <parameters>
+	  <parameter name="moduleName" value="test" />
+      <parameter name="browser" value="android"></parameter>
+      <parameter name="device" value="device1"></parameter>
+      </parameters>
+		<classes>
+			<class name="com.aims.TestDriver"></class>
+		</classes>
+	</test>
+	
+	    <test name="test">
+	  <parameters>
+	  <parameter name="moduleName" value="test" />
+      <parameter name="browser" value="android"></parameter>
+      <parameter name="device" value="device2"></parameter>
+      </parameters>
+		<classes>
+			<class name="com.aims.TestDriver"></class>
+		</classes>
+	</test>
+	
+	     <test name="test">
+	  <parameters>
+	  <parameter name="moduleName" value="test" />
+      <parameter name="browser" value="android"></parameter>
+      <parameter name="device" value="device3"></parameter>
+      </parameters>
+		<classes>
+			<class name="com.aims.TestDriver"></class>
+		</classes>
+	</test>
+	</tests>
+</suite>
+

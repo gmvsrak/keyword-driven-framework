@@ -1,0 +1,1 @@
+java -jar selenium-server-standalone-2.48.2.jar -role node -port 8991 -hub http://localhost:4444/grid/register -browser "browserName=firefox,version=43.0.1,maxInstance=2,platform=WINDOWS" -hubHost localhost

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="AIMS_Automation_Parallel" 
+	thread-count="5">
+	
+     <test name="test">
+		<parameter name="moduleName" value="Mobile" />
+		<classes>
+			<class name="com.aims.TestDriver"></class>
+		</classes>
+	</test> 
+</suite>

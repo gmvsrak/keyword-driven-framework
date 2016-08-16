@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parallel Tests" verbose="1" thread-count="8" >
+	 <tests> 
+	<test name="Chrome">
+	  <parameters>
+	  <parameter name="moduleName" value="test" />
+      <parameter name="browser" value="chrome"></parameter>
+      <parameter name="device" value=""></parameter>
+      </parameters>
+		<classes>
+		    <class name="com.mgm.main.Driver"></class>
+			<class name="com.mgm.main.TestDriver"></class>
+		</classes>
+	</test>
+</tests>
+</suite>

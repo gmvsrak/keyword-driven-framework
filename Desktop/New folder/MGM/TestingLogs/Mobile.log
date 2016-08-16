@@ -1,0 +1,62 @@
+02/03/2016 15:03:13 =============================
+02/03/2016 15:03:13 Executing getBrowserVersion from reportsUtil
+02/03/2016 15:03:18 controller file : test_Controller.xlsx
+02/03/2016 15:03:18 test data  file : test_TestData.xlsx
+02/03/2016 15:03:23 
+02/03/2016 15:03:23 ===================================================================================
+02/03/2016 15:03:23 OS : Windows 7  Browser : android   Module : MOBILE
+02/03/2016 15:03:23 ====================================================================================
+02/03/2016 15:03:23 
+02/03/2016 15:03:23 Executing the test :                                TC01
+02/03/2016 15:03:23 Test Description :    search and reach  sapient nitro on google
+02/03/2016 15:03:23 test repeat : 2
+02/03/2016 15:03:24 =============================
+02/03/2016 15:03:24 executing keyword launchWebpage
+02/03/2016 15:03:24 Url: https://www.mgmgrand.com
+02/03/2016 15:03:41 @@@ DRIVER K1 RemoteWebDriver: chrome on ANDROID (ca97a7d7-e7f8-4152-8611-9e61b5c3be81)
+02/03/2016 15:03:41 ***Result of execution -- Fail-Debug Required
+02/03/2016 15:03:48 =============================
+02/03/2016 15:03:48 Executing function handleTnCPopUp
+02/03/2016 15:03:48 in catch. No tnc pop up.
+02/03/2016 15:03:48 =============================
+02/03/2016 15:03:48 executing keyword clickWidget
+02/03/2016 15:03:52 ***Result of execution -- Pass
+02/03/2016 15:03:52 =============================
+02/03/2016 15:03:52 Executing function handleTnCPopUp
+02/03/2016 15:03:52 in catch. No tnc pop up.
+02/03/2016 15:03:52 =============================
+02/03/2016 15:03:52 executing keyword clickCta
+02/03/2016 15:03:54 ***Result of execution -- Pass
+02/03/2016 15:03:54 =============================
+02/03/2016 15:03:54 Executing function handleTnCPopUp
+02/03/2016 15:03:54 in catch. No tnc pop up.
+02/03/2016 15:03:54 =============================
+02/03/2016 15:03:54 Executing wait Keyword
+02/03/2016 15:03:59 ***Result of execution -- Pass
+02/03/2016 15:03:59 =============================
+02/03/2016 15:03:59 Executing function handleTnCPopUp
+02/03/2016 15:03:59 in catch. No tnc pop up.
+02/03/2016 15:03:59 =============================
+02/03/2016 15:03:59 executing keyword setUserName
+02/03/2016 15:04:06 
+Data :msajjan1sapientcom
+02/03/2016 15:04:06 ***Result of execution -- Pass
+02/03/2016 15:04:06 =============================
+02/03/2016 15:04:06 Executing function handleTnCPopUp
+02/03/2016 15:04:06 in catch. No tnc pop up.
+02/03/2016 15:04:06 =============================
+02/03/2016 15:04:06 executing keyword setPassWord
+02/03/2016 15:04:09 
+Data :Qwerty12345
+02/03/2016 15:04:09 ***Result of execution -- Pass
+02/03/2016 15:04:09 =============================
+02/03/2016 15:04:09 Executing function handleTnCPopUp
+02/03/2016 15:04:09 in catch. No tnc pop up.
+02/03/2016 15:04:09 =============================
+02/03/2016 15:04:09 executing keyword clickCta
+02/03/2016 15:04:11 ***Result of execution -- Pass
+02/03/2016 15:04:11 =============================
+02/03/2016 15:04:11 Executing function handleTnCPopUp
+02/03/2016 15:04:11 in catch. No tnc pop up.
+02/03/2016 15:04:11 ****************************************************TC01 --- Fail-Debug Required
+02/03/2016 15:04:12 Exception caught. Stack trace :Source 'C:\Users\aku224\Desktop\New folder\MGM\src\com\aims\xls\pageTitles_MasterList.xlsx' does not exist

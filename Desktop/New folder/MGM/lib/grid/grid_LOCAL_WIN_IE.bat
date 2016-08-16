@@ -1,0 +1,1 @@
+java -jar selenium-server-standalone-2.48.2.jar -role node -Dwebdriver.ie.driver=..\..\drivers\IEDriverServer.exe -port 8990 -hub http://localhost:4444/grid/register -browser "browserName=internet explorer,version=11,maxInstance=1,platform=WINDOWS" -hubHost localhost

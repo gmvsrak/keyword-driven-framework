@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="8" guice-stage="DEVELOPMENT" name="Failed suite [Parallel Tests]" parallel="tests">
+  <parameter name="browser" value="firefox"/>
+  <parameter name="moduleName" value="Mobile"/>
+  <parameter name="device" value=""/>
+  <test name="IE(failed)" parallel="tests">
+    <parameter name="browser" value="internetexplorer"/>
+    <parameter name="moduleName" value="Mobile"/>
+    <parameter name="device" value=""/>
+    <classes>
+      <class name="com.mgm.main.TestDriver">
+        <methods>
+          <include name="startTesting"/>
+          <include name="startTesting"/>
+          <include name="endScript"/>
+          <include name="endScript"/>
+          <include name="callMainTest"/>
+        </methods>
+      </class> <!-- com.mgm.main.TestDriver -->
+      <class name="com.mgm.main.Driver">
+        <methods>
+          <include name="createMainReport"/>
+          <include name="initiationOfGrid"/>
+        </methods>
+      </class> <!-- com.mgm.main.Driver -->
+    </classes>
+  </test> <!-- IE(failed) -->
+  <test name="FF(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <parameter name="moduleName" value="Mobile"/>
+    <parameter name="device" value=""/>
+    <classes>
+      <class name="com.mgm.main.TestDriver">
+        <methods>
+          <include name="startTesting"/>
+          <include name="startTesting"/>
+          <include name="endScript"/>
+          <include name="endScript"/>
+          <include name="callMainTest"/>
+        </methods>
+      </class> <!-- com.mgm.main.TestDriver -->
+      <class name="com.mgm.main.Driver">
+        <methods>
+          <include name="createMainReport"/>
+          <include name="initiationOfGrid"/>
+        </methods>
+      </class> <!-- com.mgm.main.Driver -->
+    </classes>
+  </test> <!-- FF(failed) -->
+</suite> <!-- Failed suite [Parallel Tests] -->
